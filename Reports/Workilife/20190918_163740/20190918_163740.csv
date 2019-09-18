@@ -1,0 +1,14 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Workilife,Firefox 69.0,,,2019-09-18 16:37:58,2019-09-18 16:38:30,31.966s,PASSED
+,,,,,,,
+Test Cases/Signin,Firefox 69.0,,,2019-09-18 16:37:59,2019-09-18 16:38:29,30.850s,PASSED
+Start setup action : setupTestCase,Firefox 69.0,,,2019-09-18 16:37:59,2019-09-18 16:37:59,0.669s,PASSED
+"openBrowser("""")",Firefox 69.0,,,2019-09-18 16:38:00,2019-09-18 16:38:13,13.237s,PASSED
+"navigateToUrl(""https://qa.thework.life/"")",Firefox 69.0,,,2019-09-18 16:38:13,2019-09-18 16:38:20,6.264s,PASSED
+"setText(findTestObject(""Object Repository/Page_theworklife - Find Great People To Work With/input_Forgot password_username""), ""surajkumarsrivastava1991@gmail.com"")",Firefox 69.0,,,2019-09-18 16:38:20,2019-09-18 16:38:20,0.498s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_theworklife - Find Great People To Work With/input_Forgot password_password""), ""nzEsFCGA/BtMPXLkTTMM4w=="")",Firefox 69.0,,,2019-09-18 16:38:20,2019-09-18 16:38:21,0.717s,PASSED
+"click(findTestObject(""Object Repository/Page_theworklife - Find Great People To Work With/button_Sign in""))",Firefox 69.0,,,2019-09-18 16:38:21,2019-09-18 16:38:24,3.346s,PASSED
+"click(findTestObject(""Object Repository/Page_Home/i_Settings_fa fa-gear""))",Firefox 69.0,,,2019-09-18 16:38:24,2019-09-18 16:38:25,0.318s,PASSED
+"click(findTestObject(""Object Repository/Page_Home/a_Logout""))",Firefox 69.0,,,2019-09-18 16:38:25,2019-09-18 16:38:27,2.317s,PASSED
+closeBrowser(),Firefox 69.0,,,2019-09-18 16:38:27,2019-09-18 16:38:29,2.462s,PASSED
+Start tear down : tearDownTestCase,Firefox 69.0,,,2019-09-18 16:38:29,2019-09-18 16:38:29,0.003s,PASSED
